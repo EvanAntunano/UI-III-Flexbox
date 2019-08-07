@@ -67,16 +67,19 @@ h1, h2, h3, h4, h5 {
 nav {
 	margin: auto;
 	width: 876px;
+	padding-top: 30px;
 }
 
 nav a {
 	text-decoration: none;
 	color: grey;
 	padding: 25px;
+	
 }
 
 nav .logo {
-	padding-left: 50px;
+	padding-left: 650px;
+	margin-top: -25px;
 }
 
 header {
@@ -205,4 +208,8 @@ footer {
 }
 #servicesFooter img{
 	padding-top: 40px;
+}
+.services-list ul{
+	list-style: square;
+	list-style-position:inside;
 }
